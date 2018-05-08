@@ -29,10 +29,10 @@ init=tf.global_variables_initializer()
 # and start the session
 sess=tf.Session()
 sess.run(init)
-epochs=4000
+runs=4000
 Ws=np.zeros(epochs)
 bs=np.zeros(epochs)
-for i in range(epochs):
+for i in range(runs):
 
     # values are simply model with a slope of ~6 with some normal random variance
     xs=np.array([[i]])
