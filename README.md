@@ -1,0 +1,3 @@
+# _machine-learning_
+## Tom takes on deep-learning in tensorflow...
+This repository will document my adventures in familiarizing myself with different machine learning methods and challenges, primarily us Google's Tensorflow package in python3.
